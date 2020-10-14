@@ -1,0 +1,30 @@
+- defaultTab: nodes
+  description: to promote jobs from deployment to main branch
+  executionEnabled: true
+  id: 21cc6847-f9d8-45f6-84d3-bc527bdb07d3
+  loglevel: INFO
+  name: promote
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - script: |-
+        mkdir scmtemp
+        cd scmtemp
+        git clone git@github.com:jplassnibatt/csuccess.git
+        cd csuccess
+        git checkout deployment
+        git pull
+        git checkout main
+        git pull
+        git merge deployment
+        git push
+        cd ..
+        rm -rf /home/rundeck/scmtemp
+    keepgoing: false
+    strategy: node-first
+  uuid: 21cc6847-f9d8-45f6-84d3-bc527bdb07d3
+

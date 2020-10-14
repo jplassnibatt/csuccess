@@ -1,0 +1,18 @@
+- defaultTab: nodes
+  description: description
+  executionEnabled: true
+  id: 7f2bf074-832a-43d1-a042-e95cd496ad07
+  loglevel: INFO
+  name: '20201014'
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - exec: whoami
+    keepgoing: false
+    strategy: node-first
+  uuid: 7f2bf074-832a-43d1-a042-e95cd496ad07
+

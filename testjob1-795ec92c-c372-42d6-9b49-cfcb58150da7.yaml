@@ -1,5 +1,5 @@
 - defaultTab: nodes
-  description: ''
+  description: description
   executionEnabled: true
   id: 795ec92c-c372-42d6-9b49-cfcb58150da7
   loglevel: INFO

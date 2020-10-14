@@ -1,9 +1,9 @@
 - defaultTab: nodes
-  description: description
+  description: ''
   executionEnabled: true
-  id: 324dfe45-f3f9-4fb1-af1c-d83f3eb7c2ae
+  id: 33a56eac-a3a9-41f7-8e84-71310031f173
   loglevel: INFO
-  name: '20201014'
+  name: whoami
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: {}
@@ -14,5 +14,5 @@
     - exec: whoami
     keepgoing: false
     strategy: node-first
-  uuid: 324dfe45-f3f9-4fb1-af1c-d83f3eb7c2ae
+  uuid: 33a56eac-a3a9-41f7-8e84-71310031f173
 

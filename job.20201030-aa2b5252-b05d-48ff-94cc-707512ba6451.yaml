@@ -1,0 +1,18 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: aa2b5252-b05d-48ff-94cc-707512ba6451
+  loglevel: INFO
+  name: job.20201030
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - exec: whoami
+    keepgoing: false
+    strategy: node-first
+  uuid: aa2b5252-b05d-48ff-94cc-707512ba6451
+

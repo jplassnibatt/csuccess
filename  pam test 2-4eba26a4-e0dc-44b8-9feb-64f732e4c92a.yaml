@@ -1,9 +1,9 @@
 - defaultTab: nodes
-  description: bla bla
+  description: ''
   executionEnabled: true
-  id: 5746aeee-2bb0-4ec3-ac08-8fa97d9c0123
+  id: 4eba26a4-e0dc-44b8-9feb-64f732e4c92a
   loglevel: INFO
-  name: testjob2
+  name: ' pam test 2'
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: null
@@ -11,8 +11,8 @@
   schedules: []
   sequence:
     commands:
-    - exec: whoami
+    - exec: echo test
     keepgoing: false
     strategy: node-first
-  uuid: 5746aeee-2bb0-4ec3-ac08-8fa97d9c0123
+  uuid: 4eba26a4-e0dc-44b8-9feb-64f732e4c92a
 

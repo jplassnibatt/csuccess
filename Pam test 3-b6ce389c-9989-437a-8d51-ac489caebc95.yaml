@@ -1,0 +1,18 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: b6ce389c-9989-437a-8d51-ac489caebc95
+  loglevel: INFO
+  name: Pam test 3
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  schedules: []
+  sequence:
+    commands:
+    - exec: echo hi
+    keepgoing: false
+    strategy: node-first
+  uuid: b6ce389c-9989-437a-8d51-ac489caebc95
+
